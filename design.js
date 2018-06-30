@@ -10,7 +10,9 @@ $(document).ready(function(){
     width = $('#inputWeight').val();
     makeGrid(height, width);
 	})
-
+	
+	// MakeGrid function
+	
 	function makeGrid(x, y){
 		for (let i = 1; i <= x; i++){
 			$('#pixelCanvas').append('<tr></tr>');
